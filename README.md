@@ -10,3 +10,8 @@ This class is to show a couple of things associated with Records
    you dont have to override
 2: Overriding of the canonical non-compact constructor of the Record
 3: Record referring to another record
+
+Comparable Vs Comparator
+Custom class that shows how to implement the Comparable vs Comparator classes
+The advantage with Comparator is that you can do custom implementations such as ordering by Multiple fields
+If you need to only do sorting by Natual order, then you can use Comparable
