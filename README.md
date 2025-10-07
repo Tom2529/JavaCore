@@ -15,3 +15,8 @@ Comparable Vs Comparator
 Custom class that shows how to implement the Comparable vs Comparator classes
 The advantage with Comparator is that you can do custom implementations such as ordering by Multiple fields
 If you need to only do sorting by Natual order, then you can use Comparable
+
+ArrayListWithArrayImpl
+This is a custom implementation of an Arraylist using a simple Array
+Here we define a couple of constants for the class that sets the initial value of the array. 
+Also if the arraySize is exceeded, then we create a new Array using System.arraycopy
