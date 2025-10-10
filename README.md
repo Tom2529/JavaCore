@@ -20,3 +20,9 @@ ArrayListWithArrayImpl
 This is a custom implementation of an Arraylist using a simple Array
 Here we define a couple of constants for the class that sets the initial value of the array. 
 Also if the arraySize is exceeded, then we create a new Array using System.arraycopy
+
+CustomHashMap
+Implementation of a hashMap. 
+The Node has key, value and pointer to next node
+A hash function determines the index where the item needs to be added on an array of size 7
+if a collision happens, a linked list approach is used to add the new key value pair to end of list
