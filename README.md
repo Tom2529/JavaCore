@@ -26,3 +26,11 @@ Implementation of a hashMap.
 The Node has key, value and pointer to next node
 A hash function determines the index where the item needs to be added on an array of size 7
 if a collision happens, a linked list approach is used to add the new key value pair to end of list
+
+StudentCollection
+This class demonstractes the use of Streams with custom classes. We have a custom class called Student that has 3 field
+-> ID
+-> Department
+-> Subject
+We put entries into an ArrayList and then when doing the terminal operation of the stream, we put it to a map
+The map has the key as "Department" and rest of the information as value
